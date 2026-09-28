@@ -7,14 +7,15 @@ int main() {
     int tugas = 80;
     int uts = 75;
     int uas = 90;
-
+    int persensi = 20;
+    int harian = 30;
     // TODO 1: hitung jumlah ketiga nilai. Di C++ tipe variabel wajib ditulis.
     int jumlah = 0;
-    jumlah = tugas + uts + uas;
+    jumlah = tugas + uts + uas + persensi + harian;
     // TODO 2: hitung rata-rata. Ingat, int dibagi int membuang pecahannya.
     //         Pakai tipe double dan pastikan pembagiannya bukan pembagian bilangan bulat.
     double rerata = 0;
-    rerata = jumlah / 3.0;
+    rerata = jumlah / 5.0;
 
     // TODO 3: cetak hasil dengan dua angka di belakang koma, sama seperti versi Python.
     std::cout << std::fixed << std::setprecision(2);
